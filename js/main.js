@@ -55,7 +55,20 @@ $(document).ready(function() {
     arrows: false,
     asNavFor: ".slider-for",
     dots: false,
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [{
+      breakpoint: 1024,
+      settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+      }
+  }, {
+      breakpoint: 600,
+      settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+      }
+  }]
   });
 
   var sickPrimary = {
