@@ -33,7 +33,7 @@ $(document).ready(function() {
         items: 2
       },
       600: {
-        items: 2
+        items: 3
       },
       1000: {
         items: 4
@@ -59,7 +59,7 @@ $(document).ready(function() {
     responsive: [{
       breakpoint: 1024,
       settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1
       }
   }, {
