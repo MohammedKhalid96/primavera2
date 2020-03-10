@@ -700,6 +700,7 @@ text {
 }
 
 .contact-form .form-control {
+  color: #d1b464;
   outline: 0;
   border: 0;
   border-bottom: 2px solid #d1b464;
@@ -1531,6 +1532,34 @@ footer {
   color: #fff;
 }
 
+.form-control::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #fff !important;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #fff !important;
+}
+
+.form-control::-moz-placeholder {
+  color: #fff !important;
+}
+
+.form-control::placeholder {
+  color: #fff !important;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #fff !important;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #fff !important;
+}
+
 @media (min-width: 992px) and (max-width: 1183px) {
   .block-1,
   .block-2,
@@ -1926,5 +1955,9 @@ footer {
 
   .dropdown-item {
     color: #d1b464 !important;
+  }
+
+  .learn-more {
+    width: 11rem;
   }
 }
